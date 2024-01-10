@@ -6,9 +6,6 @@ def main():
         user_input = input("Enter your command: ")
         if user_input == 'palindrome':
             import Challenge1
-            question = input("Continue? ")
-            if question == 'n':
-                break
         elif user_input == 'Fibonacci':
             import Challenge2
         elif user_input == 'list':
